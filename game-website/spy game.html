@@ -86,13 +86,19 @@
             window.location.href = "gameover.html";
         }
         }
+        function hool(){
+            value =+ 2;
+            if (value === 2){
+                window.location.href = "hool.html";
+            }
+        }
         function setValueTo1() {
         value =+ 1;
         if (value === 1){
             window.location.href = "2-ruy.html";
         }
         }
-        resetButton1.addEventListener("click", resetValueTo0);
+        resetButton1.addEventListener("click", hool);
         resetButton2.addEventListener("click", resetValueTo0);
         setValueButton.addEventListener("click", setValueTo1);
     </script>
